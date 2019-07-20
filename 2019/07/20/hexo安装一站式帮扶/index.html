@@ -1,0 +1,1445 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang>
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+
+
+
+
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link rel="stylesheet" href="/lib/pace/pace-theme-minimal.min.css?v=1.0.2">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.7.0">
+
+<link rel="stylesheet" href="/css/main.css?v=7.2.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.2.0">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.2.0">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.2.0">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=7.2.0" color="#222">
+
+
+
+
+
+
+
+<script id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '7.2.0',
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false},
+    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
+    copycode: {"enable":false,"show_result":false,"style":null},
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    },
+    translation: {
+      copy_button: 'Copy',
+      copy_success: 'Copied',
+      copy_failure: 'Copy failed'
+    }
+  };
+</script>
+
+
+
+  <meta name="description" content="1&amp;#x3001;&amp;#x5B89;&amp;#x88C5;&amp;#x672C;&amp;#x6587;&amp;#x5C06;&amp;#x6574;&amp;#x7406;&amp;#x4ECE;hexo&amp;#x7684;&amp;#x5B89;&amp;#x88C5;&amp;#x3001;&amp;#x914D;&amp;#x7F6E;&amp;#x3001;&amp;#x5199;&amp;#x6587;&amp;#x7AE0;&amp;#x5230;&amp;#x56FE;&amp;#x7247;&amp;#x4E0A;&amp;#x4F20;&amp;#x">
+<meta name="keywords" content="hexo,安装">
+<meta property="og:type" content="article">
+<meta property="og:title" content="hexo安装一站式帮扶">
+<meta property="og:url" content="http://yoursite.com/2019/07/20/hexo安装一站式帮扶/index.html">
+<meta property="og:site_name" content="cyqandHexo">
+<meta property="og:description" content="1&amp;#x3001;&amp;#x5B89;&amp;#x88C5;&amp;#x672C;&amp;#x6587;&amp;#x5C06;&amp;#x6574;&amp;#x7406;&amp;#x4ECE;hexo&amp;#x7684;&amp;#x5B89;&amp;#x88C5;&amp;#x3001;&amp;#x914D;&amp;#x7F6E;&amp;#x3001;&amp;#x5199;&amp;#x6587;&amp;#x7AE0;&amp;#x5230;&amp;#x56FE;&amp;#x7247;&amp;#x4E0A;&amp;#x4F20;&amp;#x">
+<meta property="og:locale" content="default">
+<meta property="og:image" content="http://yoursite.com/2019/07/20/hexo安装一站式帮扶/hexo%E5%AE%89%E8%A3%85%E4%B8%80%E7%AB%99%E5%BC%8F%E5%B8%AE%E6%89%B6_img1.png">
+<meta property="og:image" content="http://yoursite.com/2019/07/20/hexo安装一站式帮扶/hexo%E5%AE%89%E8%A3%85%E4%B8%80%E7%AB%99%E5%BC%8F%E5%B8%AE%E6%89%B6%5Chexo%E5%AE%89%E8%A3%85%E4%B8%80%E7%AB%99%E5%BC%8F%E5%B8%AE%E6%89%B6_img3.png">
+<meta property="og:image" content="http://yoursite.com/2019/07/20/hexo安装一站式帮扶/hexo%E5%AE%89%E8%A3%85%E4%B8%80%E7%AB%99%E5%BC%8F%E5%B8%AE%E6%89%B6_img2.png">
+<meta property="og:updated_time" content="2019-07-20T08:41:37.903Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="hexo安装一站式帮扶">
+<meta name="twitter:description" content="1&amp;#x3001;&amp;#x5B89;&amp;#x88C5;&amp;#x672C;&amp;#x6587;&amp;#x5C06;&amp;#x6574;&amp;#x7406;&amp;#x4ECE;hexo&amp;#x7684;&amp;#x5B89;&amp;#x88C5;&amp;#x3001;&amp;#x914D;&amp;#x7F6E;&amp;#x3001;&amp;#x5199;&amp;#x6587;&amp;#x7AE0;&amp;#x5230;&amp;#x56FE;&amp;#x7247;&amp;#x4E0A;&amp;#x4F20;&amp;#x">
+<meta name="twitter:image" content="http://yoursite.com/2019/07/20/hexo安装一站式帮扶/hexo%E5%AE%89%E8%A3%85%E4%B8%80%E7%AB%99%E5%BC%8F%E5%B8%AE%E6%89%B6_img1.png">
+
+
+
+
+
+  
+  
+  <link rel="canonical" href="http://yoursite.com/2019/07/20/hexo安装一站式帮扶/">
+
+
+
+<script id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>hexo安装一站式帮扶 | cyqandHexo</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-title { opacity: initial; }
+
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="default">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">cyqandHexo</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="Toggle navigation bar">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home">
+
+    
+    
+      
+    
+
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>Home</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+
+    
+    
+      
+    
+
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>Archives</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-tags">
+
+    
+    
+      
+    
+
+    
+
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>Tags</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-categories">
+
+    
+    
+      
+    
+
+    
+
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>Categories</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-about">
+
+    
+    
+      
+    
+
+    
+
+    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>About</a>
+
+  </li>
+
+      
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>Search</a>
+        </li>
+      
+    </ul>
+  
+
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off" placeholder="Searching..." spellcheck="false" type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+            
+
+          
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/07/20/hexo安装一站式帮扶/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="cyqand">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="cyqandHexo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">hexo安装一站式帮扶
+
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+
+          
+          
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2019-07-20 16:39:33 / Modified: 16:41:37" itemprop="dateCreated datePublished" datetime="2019-07-20T16:39:33+08:00">2019-07-20</time>
+            </span>
+          
+
+          
+            
+
+            
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/hexo/" itemprop="url" rel="index"><span itemprop="name">hexo</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+                 Views:  
+                <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>
+              </span>
+            </span>
+          
+
+          
+
+          <br>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h2 id="1&#x3001;&#x5B89;&#x88C5;"><a href="#1&#x3001;&#x5B89;&#x88C5;" class="headerlink" title="1&#x3001;&#x5B89;&#x88C5;"></a>1&#x3001;&#x5B89;&#x88C5;</h2><p>&#x672C;&#x6587;&#x5C06;&#x6574;&#x7406;&#x4ECE;hexo&#x7684;&#x5B89;&#x88C5;&#x3001;&#x914D;&#x7F6E;&#x3001;&#x5199;&#x6587;&#x7AE0;&#x5230;&#x56FE;&#x7247;&#x4E0A;&#x4F20;&#x65B9;&#x6CD5;&#x7684;&#x5177;&#x4F53;&#x5185;&#x5BB9;&#xFF0C;&#x5982;&#x679C;&#x60F3;&#x8981;&#x4E86;&#x89E3;&#x66F4;&#x591A;&#xFF0C;&#x8BF7;&#x70B9;&#x51FB;&#x66F4;&#x591A;&#x67E5;&#x770B;&#x3002;<a id="more"></a></p>
+<p>1&#x3001; &#x5B89;&#x88C5;git</p>
+<pre><code>$ sudo apt-get install git</code></pre><p>&#x67E5;&#x770B;git&#x7248;&#x672C;</p>
+<pre><code>$ git version</code></pre><p>2&#x3001; &#x5B89;&#x88C5;Node.js&#x53CA;npm<br>&#x9996;&#x5148;&#x66F4;&#x6362;&#x8F6F;&#x4EF6;&#x6E90;&#xFF1A;</p>
+<p>deepin&#x914D;&#x7F6E;&#x963F;&#x91CC;&#x4E91;&#x955C;&#x50CF;&#x6E90; </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">echo -e &quot;deb [by-hash=force]  http://mirrors.aliyun.com/deepin unstable main contrib non-free  \ndeb-src http://mirrors.aliyun.com/deepin unstable main contrib  non-free&quot; | sudo tee /etc/apt/sources.list</span><br></pre></td></tr></table></figure>
+
+<p>deepin&#x914D;&#x7F6E;&#x4E2D;&#x79D1;&#x5927;&#x955C;&#x50CF;&#x6E90;</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">echo -e &quot;deb [by-hash=force]  http://mirrors.ustc.edu.cn/deepin unstable main contrib non-free  \ndeb-src http://mirrors.ustc.edu.cn/deepin unstable main contrib  non-free&quot; |sudo tee /etc/apt/sources.list</span><br></pre></td></tr></table></figure>
+
+<p>&#x4E4B;&#x540E;&#x4F7F;&#x7528;</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install nodejs</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install npm</span><br></pre></td></tr></table></figure>
+
+<p>&#x4E4B;&#x540E;&#x68C0;&#x67E5;&#x5B89;&#x88C5;&#x662F;&#x5426;&#x6210;&#x529F;</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nodejs -v</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm -v</span><br></pre></td></tr></table></figure>
+
+<p>&#x8865;&#xFF1A;&#x6811;&#x8393;&#x6D3E;&#x5B89;&#x88C5;&#x65B9;&#x6CD5;&#xFF1A;</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -</span><br><span class="line">sudo apt-get install -y nodejs</span><br></pre></td></tr></table></figure>
+
+<p>3&#x3001; &#x5B89;&#x88C5;hexo</p>
+<pre><code>$ npm install -g hexo-cli</code></pre><p>&#x518D;&#x8F93;&#x5165;hexo&#x547D;&#x4EE4;&#x53EF;&#x4EE5;&#x6B63;&#x5E38;&#x663E;&#x793A;&#x3002;<br>&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x7A7A;&#x6587;&#x4EF6;&#x5939;&#xFF0C;&#x6B64;&#x5904;&#x540D;&#x4E3A;hexo&#xFF1A;</p>
+<pre><code>$ mkdir hexo
+$ cd hexo
+$ hexo init
+$ hexo server</code></pre><p>&#x5230;&#x6B64;&#xFF0C;hexo&#x5B89;&#x88C5;&#x5B8C;&#x6BD5;&#x3002;&#x6D4F;&#x89C8;&#x5668;&#x8F93;&#x5165;&#x672C;&#x5730;&#xFF0C;&#x524D;&#x9762;&#x914D;&#x7F6E;&#x5747;&#x6B63;&#x786E;&#x7684;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x6B63;&#x5E38;&#x663E;&#x793A;&#x535A;&#x5BA2;&#x9996;&#x9875;&#x3002;</p>
+<h2 id="2&#x3001;&#x914D;&#x7F6E;&#xFF08;&#x4EE5;&#x5B89;&#x88C5;next&#x6765;&#x793A;&#x8303;&#xFF09;"><a href="#2&#x3001;&#x914D;&#x7F6E;&#xFF08;&#x4EE5;&#x5B89;&#x88C5;next&#x6765;&#x793A;&#x8303;&#xFF09;" class="headerlink" title="2&#x3001;&#x914D;&#x7F6E;&#xFF08;&#x4EE5;&#x5B89;&#x88C5;next&#x6765;&#x793A;&#x8303;&#xFF09;"></a>2&#x3001;&#x914D;&#x7F6E;&#xFF08;&#x4EE5;&#x5B89;&#x88C5;next&#x6765;&#x793A;&#x8303;&#xFF09;</h2><h3 id="&#xFF08;1&#xFF09;&#x4E3B;&#x9898;&#x914D;&#x7F6E;"><a href="#&#xFF08;1&#xFF09;&#x4E3B;&#x9898;&#x914D;&#x7F6E;" class="headerlink" title="&#xFF08;1&#xFF09;&#x4E3B;&#x9898;&#x914D;&#x7F6E;"></a>&#xFF08;1&#xFF09;&#x4E3B;&#x9898;&#x914D;&#x7F6E;</h3><p>&#x6B64;&#x5904;&#x5148;&#x4E0B;&#x8F7D;NexT&#x4E3B;&#x9898;&#xFF1A;</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git clone https://github.com/iissnan/hexo-theme-next themes/nextxxxxxxxxxx&#xA0;$ git clone https://github.com/iissnan/hexo-theme-next themes/next1</span><br></pre></td></tr></table></figure>
+
+<p>&#x7136;&#x540E;&#x6211;&#x4EEC;&#x4E3A;&#x4E86;&#x4F7F;&#x65B0;&#x914D;&#x7F6E;&#x7684;next&#x4E3B;&#x9898;&#x751F;&#x6548;</p>
+<p>&#x5728;blog&#x76EE;&#x5F55;&#x4E0B;</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo nano _config.yml</span><br></pre></td></tr></table></figure>
+
+<p>&#x7136;&#x540E;&#x8BBE;&#x7F6E;</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">themes: next</span><br></pre></td></tr></table></figure>
+
+<p>&#x4FDD;&#x5B58;&#x9000;&#x51FA;&#x4E4B;&#x540E;&#x6211;&#x4EEC;&#x5C31;&#x53EF;&#x4EE5;&#x542F;&#x52A8;hexo</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo hexo s</span><br></pre></td></tr></table></figure>
+
+<p>&#x5728;&#x6D4F;&#x89C8;&#x5668;&#x8F93;&#x5165;&#x672C;&#x673A;ip:4000</p>
+<p>&#x5C31;&#x53EF;&#x4EE5;&#x8BBF;&#x95EE;</p>
+<h3 id="&#xFF08;2&#xFF09;&#x8BBE;&#x7F6E;&#x4E3B;&#x9898;&#x98CE;&#x683C;"><a href="#&#xFF08;2&#xFF09;&#x8BBE;&#x7F6E;&#x4E3B;&#x9898;&#x98CE;&#x683C;" class="headerlink" title="&#xFF08;2&#xFF09;&#x8BBE;&#x7F6E;&#x4E3B;&#x9898;&#x98CE;&#x683C;"></a>&#xFF08;2&#xFF09;&#x8BBE;&#x7F6E;&#x4E3B;&#x9898;&#x98CE;&#x683C;</h3><p>&#x6253;&#x5F00; <code>themes/next/_config.yml</code> &#x6587;&#x4EF6;&#xFF0C;&#x641C;&#x7D22;  <code>scheme</code> &#x5173;&#x952E;&#x5B57;&#xFF0C;&#x5C06;&#x4F60;&#x9700;&#x7528;&#x542F;&#x7528;&#x7684; <code>scheme</code> &#x524D;&#x9762;&#x6CE8;&#x91CA; # &#x53BB;&#x9664;&#x5373;&#x53EF;&#x3002;</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"># Schemes</span><br><span class="line">#scheme: Muse # &#x9ED8;&#x8BA4; Scheme&#xFF0C;&#x8FD9;&#x662F; NexT &#x6700;&#x521D;&#x7684;&#x7248;&#x672C;&#xFF0C;&#x9ED1;&#x767D;&#x4E3B;&#x8C03;&#xFF0C;&#x5927;&#x91CF;&#x7559;&#x767D;</span><br><span class="line">#scheme: Mist # Muse &#x7684;&#x7D27;&#x51D1;&#x7248;&#x672C;&#xFF0C;&#x6574;&#x6D01;&#x6709;&#x5E8F;&#x7684;&#x5355;&#x680F;&#x5916;&#x89C2;</span><br><span class="line">#scheme: Pisces # &#x53CC;&#x680F; Scheme&#xFF0C;&#x5C0F;&#x5BB6;&#x78A7;&#x7389;&#x4F3C;&#x7684;&#x6E05;&#x65B0;</span><br><span class="line">scheme: Gemini # &#x7C7B;&#x4F3C; Pisces</span><br></pre></td></tr></table></figure>
+
+<p><img src="/2019/07/20/hexo&#x5B89;&#x88C5;&#x4E00;&#x7AD9;&#x5F0F;&#x5E2E;&#x6276;/hexo%E5%AE%89%E8%A3%85%E4%B8%80%E7%AB%99%E5%BC%8F%E5%B8%AE%E6%89%B6_img1.png" alt="hexo&#x5B89;&#x88C5;&#x4E00;&#x7AD9;&#x5F0F;&#x5E2E;&#x6276;_img1"></p>
+<h3 id="&#xFF08;3&#xFF09;&#x8BBE;&#x7F6E;Menu"><a href="#&#xFF08;3&#xFF09;&#x8BBE;&#x7F6E;Menu" class="headerlink" title="&#xFF08;3&#xFF09;&#x8BBE;&#x7F6E;Menu"></a>&#xFF08;3&#xFF09;&#x8BBE;&#x7F6E;Menu</h3><p>&#x6253;&#x5F00; <code>themes/next/_config.yml</code> &#x6587;&#x4EF6;</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">menu:</span><br><span class="line">  home: / || home</span><br><span class="line">  archives: /archives/ || archive</span><br><span class="line">  tags: /tags/ || tags</span><br><span class="line">  categories: /categories/ || th</span><br><span class="line">  about: /about/ || user</span><br><span class="line">  #schedule: /schedule/ || calendar</span><br><span class="line">  #sitemap: /sitemap.xml || sitemap</span><br><span class="line">  #commonweal: /404/ || heartbeat</span><br></pre></td></tr></table></figure>
+
+<h3 id="&#xFF08;4&#xFF09;&#x6DFB;&#x52A0;&#x5934;&#x50CF;"><a href="#&#xFF08;4&#xFF09;&#x6DFB;&#x52A0;&#x5934;&#x50CF;" class="headerlink" title="&#xFF08;4&#xFF09;&#x6DFB;&#x52A0;&#x5934;&#x50CF;"></a>&#xFF08;4&#xFF09;&#x6DFB;&#x52A0;&#x5934;&#x50CF;</h3><p>&#x6253;&#x5F00; <code>themes/next/_config.yml</code> &#x6587;&#x4EF6;&#xFF0C;&#x641C;&#x7D22;  <code>Sidebar Avatar</code> &#x5173;&#x952E;&#x5B57;&#xFF0C;&#x53BB;&#x6389; <code>avatar</code> &#x524D;&#x9762;&#x7684;<code>#</code>&#xFF1A;</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># Sidebar Avatar</span><br><span class="line"># in theme directory(source/images): /images/avatar.jpg</span><br><span class="line"># in site  directory(source/uploads): /uploads/avatar.jpg</span><br><span class="line">avatar: http://example.com/avatar.png</span><br></pre></td></tr></table></figure>
+
+<p>&#x6216;&#x8005;&#x4F7F;&#x7528;&#x672C;&#x5730;&#x56FE;&#x7247;,&#x628A;&#x56FE;&#x7247;&#x653E;&#x5165; <code>themes/next/source/images</code> &#x4E0B;,&#x4FEE;&#x6539; <code>avatar</code>&#xFF1A;</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">avatar: /images/avatar.gif</span><br></pre></td></tr></table></figure>
+
+<h3 id="&#xFF08;5&#xFF09;&#x8BBE;&#x7F6E;&#x4FA7;&#x8FB9;&#x680F;&#x793E;&#x4EA4;&#x94FE;&#x63A5;"><a href="#&#xFF08;5&#xFF09;&#x8BBE;&#x7F6E;&#x4FA7;&#x8FB9;&#x680F;&#x793E;&#x4EA4;&#x94FE;&#x63A5;" class="headerlink" title="&#xFF08;5&#xFF09;&#x8BBE;&#x7F6E;&#x4FA7;&#x8FB9;&#x680F;&#x793E;&#x4EA4;&#x94FE;&#x63A5;"></a>&#xFF08;5&#xFF09;&#x8BBE;&#x7F6E;&#x4FA7;&#x8FB9;&#x680F;&#x793E;&#x4EA4;&#x94FE;&#x63A5;</h3><p>&#x6253;&#x5F00; <code>themes/next/_config.yml</code> &#x6587;&#x4EF6;,&#x641C;&#x7D22;&#x5173;&#x952E;&#x5B57; <code>social</code> ,&#x7136;&#x540E;&#x6DFB;&#x52A0;&#x793E;&#x4EA4;&#x7AD9;&#x70B9;&#x540D;&#x79F0;&#x4E0E;&#x5730;&#x5740;&#x5373;&#x53EF;&#x3002;</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"># Social Links</span><br><span class="line"># Usage: `Key: permalink || icon`</span><br><span class="line"># Key is the link label showing to end users.</span><br><span class="line"># Value before `||` delimiter is the target permalink.</span><br><span class="line"># Value after `||` delimiter is the name of Font Awesome icon. If icon (with or without delimiter) is not specified, globe icon will be loaded.</span><br><span class="line">social:</span><br><span class="line">  GitHub: https://github.com/cyqand || github</span><br><span class="line">  E-Mail: cyqand@outlook.com || envelope</span><br><span class="line">  #Weibo: https://weibo.com/yourname || weibo</span><br><span class="line">  #Google: https://plus.google.com/yourname || google</span><br><span class="line">  #Twitter: https://twitter.com/yourname || twitter</span><br><span class="line">  #FB Page: https://www.facebook.com/yourname || facebook</span><br><span class="line">  #VK Group: https://vk.com/yourname || vk</span><br><span class="line">  #StackOverflow: https://stackoverflow.com/yourname || stack-overflow</span><br><span class="line">  #YouTube: https://youtube.com/yourname || youtube</span><br><span class="line">  #Instagram: https://instagram.com/yourname || instagram</span><br><span class="line">  #Skype: skype:yourname?call|chat || skype</span><br></pre></td></tr></table></figure>
+
+<h3 id="&#xFF08;6&#xFF09;&#x6DFB;&#x52A0;&#x9876;&#x90E8;&#x52A0;&#x8F7D;&#x6761;"><a href="#&#xFF08;6&#xFF09;&#x6DFB;&#x52A0;&#x9876;&#x90E8;&#x52A0;&#x8F7D;&#x6761;" class="headerlink" title="&#xFF08;6&#xFF09;&#x6DFB;&#x52A0;&#x9876;&#x90E8;&#x52A0;&#x8F7D;&#x6761;"></a>&#xFF08;6&#xFF09;&#x6DFB;&#x52A0;&#x9876;&#x90E8;&#x52A0;&#x8F7D;&#x6761;</h3><p>&#x6253;&#x5F00; <code>themes/next/_config.yml</code> &#xFF0C;&#x641C;&#x7D22;&#x5173;&#x952E;&#x5B57; <code>pace</code> ,&#x8BBE;&#x7F6E;&#x4E3A; <code>true</code> ,&#x53EF;&#x4EE5;&#x66F4;&#x6362;&#x52A0;&#x8F7D;&#x6837;&#x5F0F;&#xFF1A;</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"># Progress bar in the top during page loading.</span><br><span class="line">pace: true</span><br><span class="line"># Themes list:</span><br><span class="line">#pace-theme-big-counter</span><br><span class="line">#pace-theme-bounce</span><br><span class="line">#pace-theme-barber-shop</span><br><span class="line">#pace-theme-center-atom</span><br><span class="line">#pace-theme-center-circle</span><br><span class="line">#pace-theme-center-radar</span><br><span class="line">#pace-theme-center-simple</span><br><span class="line">#pace-theme-corner-indicator</span><br><span class="line">#pace-theme-fill-left</span><br><span class="line">#pace-theme-flash</span><br><span class="line">#pace-theme-loading-bar</span><br><span class="line">#pace-theme-mac-osx</span><br><span class="line">#pace-theme-minimal</span><br><span class="line"># For example</span><br><span class="line"># pace_theme: pace-theme-center-simple</span><br><span class="line">pace_theme: pace-theme-flash #&#x66FF;&#x6362;&#x66F4;&#x6362;&#x6837;&#x5F0F;</span><br></pre></td></tr></table></figure>
+
+<h3 id="&#xFF08;7&#xFF09;&#x672C;&#x5730;&#x641C;&#x7D22;"><a href="#&#xFF08;7&#xFF09;&#x672C;&#x5730;&#x641C;&#x7D22;" class="headerlink" title="&#xFF08;7&#xFF09;&#x672C;&#x5730;&#x641C;&#x7D22;"></a>&#xFF08;7&#xFF09;&#x672C;&#x5730;&#x641C;&#x7D22;</h3><p>&#x5728;&#x4F60;&#x7AD9;&#x70B9;&#x7684;&#x6839;&#x76EE;&#x5F55;&#x4E0B;</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
+
+<p>&#x6253;&#x5F00; <code>Hexo</code> &#x7AD9;&#x70B9;&#x7684; <code>_config.yml</code>,&#x6DFB;&#x52A0;&#x914D;&#x7F6E;</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">search:</span><br><span class="line">  path: search.xml</span><br><span class="line">  field: post</span><br><span class="line">  format: html</span><br><span class="line">  limit: 10000</span><br></pre></td></tr></table></figure>
+
+<p>&#x6253;&#x5F00; <code>themes/next/_config.yml</code> ,&#x641C;&#x7D22;&#x5173;&#x952E;&#x5B57; <code>local_search</code> ,&#x8BBE;&#x7F6E;&#x4E3A; <code>true</code>&#xFF1A;</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"># Local search</span><br><span class="line"># Dependencies: https://github.com/flashlab/hexo-generator-search</span><br><span class="line">local_search:</span><br><span class="line">  enable: true</span><br><span class="line">  # if auto, trigger search by changing input</span><br><span class="line">  # if manual, trigger search by pressing enter key or search button</span><br><span class="line">  trigger: auto</span><br><span class="line">  # show top n results per article, show all results by setting to -1</span><br><span class="line">  top_n_per_article: 1</span><br></pre></td></tr></table></figure>
+
+<h3 id="&#xFF08;8&#xFF09;&#x4FEE;&#x6539;&#x7F51;&#x9875;&#x5E95;&#x90E8;"><a href="#&#xFF08;8&#xFF09;&#x4FEE;&#x6539;&#x7F51;&#x9875;&#x5E95;&#x90E8;" class="headerlink" title="&#xFF08;8&#xFF09;&#x4FEE;&#x6539;&#x7F51;&#x9875;&#x5E95;&#x90E8;"></a>&#xFF08;8&#xFF09;&#x4FEE;&#x6539;&#x7F51;&#x9875;&#x5E95;&#x90E8;</h3><ol>
+<li>&#x5728;&#x56FE;&#x6807;&#x5E93;&#x4E2D;&#x627E;&#x5230;&#x4F60;&#x81EA;&#x5DF1;&#x559C;&#x6B22;&#x7684;&#x56FE;&#x6807;, &#x4FEE;&#x6539;&#x6843;&#x5FC3;,&#x6253;&#x5F00; <code>themes/next_config.yml</code> ,&#x641C;&#x7D22;&#x5173;&#x952E;&#x5B57; <code>authoricon</code>,&#x66FF;&#x6362;&#x56FE;&#x6807;&#x540D;</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># icon between year and author @Footer</span><br><span class="line">authoricon: id-card</span><br></pre></td></tr></table></figure>
+
+<ol>
+<li>&#x9690;&#x85CF;&#x7F51;&#x9875;&#x5E95;&#x90E8; <code>Hexo &#x5F3A;&#x529B;&#x9A71;&#x52A8;</code> </li>
+</ol>
+<p>&#x6253;&#x5F00;&#x4E3B;&#x9898;&#x914D;&#x7F6E;&#x6587;&#x4EF6;,&#x641C;&#x7D22;&#x5173;&#x952E;&#x5B57; <code>copyright</code> &#xFF0C;&#x5982;&#x4E0B;:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># Footer `powered-by` and `theme-info` copyright</span><br><span class="line">copyright: false</span><br></pre></td></tr></table></figure>
+
+<h3 id="&#xFF08;9&#xFF09;&#x7EDF;&#x8BA1;&#x529F;&#x80FD;&#xFF0C;&#x7EDF;&#x8BA1;&#x529F;&#x80FD;-&#x663E;&#x793A;&#x6587;&#x7AE0;&#x5B57;&#x6570;&#x7EDF;&#x8BA1;-&#x9605;&#x8BFB;&#x65F6;&#x957F;-&#x603B;&#x5B57;&#x6570;"><a href="#&#xFF08;9&#xFF09;&#x7EDF;&#x8BA1;&#x529F;&#x80FD;&#xFF0C;&#x7EDF;&#x8BA1;&#x529F;&#x80FD;-&#x663E;&#x793A;&#x6587;&#x7AE0;&#x5B57;&#x6570;&#x7EDF;&#x8BA1;-&#x9605;&#x8BFB;&#x65F6;&#x957F;-&#x603B;&#x5B57;&#x6570;" class="headerlink" title="&#xFF08;9&#xFF09;&#x7EDF;&#x8BA1;&#x529F;&#x80FD;&#xFF0C;&#x7EDF;&#x8BA1;&#x529F;&#x80FD;,&#x663E;&#x793A;&#x6587;&#x7AE0;&#x5B57;&#x6570;&#x7EDF;&#x8BA1;,&#x9605;&#x8BFB;&#x65F6;&#x957F;,&#x603B;&#x5B57;&#x6570;"></a>&#xFF08;9&#xFF09;&#x7EDF;&#x8BA1;&#x529F;&#x80FD;&#xFF0C;&#x7EDF;&#x8BA1;&#x529F;&#x80FD;,&#x663E;&#x793A;&#x6587;&#x7AE0;&#x5B57;&#x6570;&#x7EDF;&#x8BA1;,&#x9605;&#x8BFB;&#x65F6;&#x957F;,&#x603B;&#x5B57;&#x6570;</h3><p>&#x5728;&#x7AD9;&#x70B9;&#x7684;&#x6839;&#x76EE;&#x5F55;&#x4E0B;&#xFF1A;</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm i --save hexo-wordcount</span><br></pre></td></tr></table></figure>
+
+<p>&#x6253;&#x5F00; <code>themes/next/_config.yml</code> &#xFF0C;&#x641C;&#x7D22;&#x5173;&#x952E;&#x5B57; <code>post_wordcount</code>&#xFF1A;</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"># Post wordcount display settings</span><br><span class="line"># Dependencies: https://github.com/willin/hexo-wordcount</span><br><span class="line">post_wordcount:</span><br><span class="line">  item_text: true</span><br><span class="line">  #&#x5B57;&#x6570;&#x7EDF;&#x8BA1;</span><br><span class="line">  wordcount: true</span><br><span class="line">  #&#x9884;&#x89C8;&#x65F6;&#x95F4;</span><br><span class="line">  min2read: true</span><br><span class="line">  #&#x603B;&#x5B57;&#x6570;,&#x663E;&#x793A;&#x5728;&#x9875;&#x9762;&#x5E95;&#x90E8;</span><br><span class="line">  totalcount: true</span><br><span class="line">  separated_meta: true</span><br></pre></td></tr></table></figure>
+
+<h3 id="&#xFF08;10&#xFF09;20-&#x6587;&#x7AE0;&#x9876;&#x90E8;&#x663E;&#x793A;&#x66F4;&#x65B0;&#x65F6;&#x95F4;"><a href="#&#xFF08;10&#xFF09;20-&#x6587;&#x7AE0;&#x9876;&#x90E8;&#x663E;&#x793A;&#x66F4;&#x65B0;&#x65F6;&#x95F4;" class="headerlink" title="&#xFF08;10&#xFF09;20. &#x6587;&#x7AE0;&#x9876;&#x90E8;&#x663E;&#x793A;&#x66F4;&#x65B0;&#x65F6;&#x95F4;"></a>&#xFF08;10&#xFF09;20. &#x6587;&#x7AE0;&#x9876;&#x90E8;&#x663E;&#x793A;&#x66F4;&#x65B0;&#x65F6;&#x95F4;</h3><p>&#x6253;&#x5F00;&#x4E3B;&#x9898;&#x914D;&#x7F6E;&#x6587;&#x4EF6; <code>_config.yml</code> ,&#x641C;&#x7D22;&#x5173;&#x952E;&#x5B57; <code>updated_at</code> &#x8BBE;&#x7F6E;&#x4E3A; <code>true</code> &#xFF1A;</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># Post meta display settings</span><br><span class="line">post_meta:</span><br><span class="line">  item_text: true</span><br><span class="line">  created_at: true</span><br><span class="line">  updated_at: ture</span><br><span class="line">  categories: true</span><br></pre></td></tr></table></figure>
+
+<p><del>&#x7F16;&#x8F91;&#x6587;&#x7AE0;,&#x589E;&#x52A0;&#x5173;&#x952E;&#x5B57;<code>updated</code></del>&#xFF08;next&#x53EF;&#x4EE5;&#x6839;&#x636E;&#x6587;&#x7AE0;&#x6539;&#x53D8;&#x65F6;&#x95F4;&#x81EA;&#x52A8;&#x66F4;&#x6539;&#xFF09;</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">layout: layout</span><br><span class="line">title: &#x5173;&#x4E8E;</span><br><span class="line">date: 2017-08-18 15:41:18</span><br><span class="line">updated: 2017-09-05 20:18:54 #&#x624B;&#x52A8;&#x6DFB;&#x52A0;&#x66F4;&#x65B0;&#x65F6;&#x95F4;</span><br></pre></td></tr></table></figure>
+
+<h3 id="&#xFF08;11&#xFF09;&#x672C;&#x5730;&#x7AD9;&#x70B9;&#x63A8;&#x9001;&#x5230;GitHub&#x4E0A;"><a href="#&#xFF08;11&#xFF09;&#x672C;&#x5730;&#x7AD9;&#x70B9;&#x63A8;&#x9001;&#x5230;GitHub&#x4E0A;" class="headerlink" title="&#xFF08;11&#xFF09;&#x672C;&#x5730;&#x7AD9;&#x70B9;&#x63A8;&#x9001;&#x5230;GitHub&#x4E0A;"></a>&#xFF08;11&#xFF09;&#x672C;&#x5730;&#x7AD9;&#x70B9;&#x63A8;&#x9001;&#x5230;GitHub&#x4E0A;</h3><p>&#x5728;&#x7AD9;&#x70B9;&#x66F4;&#x76EE;&#x5F55;&#x4E0B;&#xFF1A;</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+
+<p>&#x5728; <code>Hexo</code> &#x7AD9;&#x70B9;&#x7684; <code>_config.yml</code> &#x4E2D;&#x914D;&#x7F6E; <code>deploy</code>&#xFF1A;</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"># Deployment</span><br><span class="line">## Docs: https://hexo.io/docs/deployment.html</span><br><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: &lt;repository url&gt; #your github.io.git</span><br><span class="line">  branch: master</span><br><span class="line">$ hexo clean</span><br><span class="line">$ hexo d --g</span><br></pre></td></tr></table></figure>
+
+<p>hexo g  # &#x751F;&#x6210;&#x672C;&#x5730; public &#x9759;&#x6001;&#x6587;&#x4EF6;,<br> hexo d  # &#x90E8;&#x7F72;&#x5230; Github &#x4E0A;,<br> &#x4E5F;&#x53EF;&#x4EE5;&#x7F29;&#x5199;&#x6210;&#xFF1A;hexo g &#x2013;d &#x3002;</p>
+<h3 id="&#xFF08;12&#xFF09;Hexo&#x535A;&#x5BA2;NexT&#x4E3B;&#x9898;&#x4E0B;&#x6DFB;&#x52A0;&#x5206;&#x7C7B;&#x3001;&#x6807;&#x7B7E;&#x3001;&#x5173;&#x4E8E;&#x83DC;&#x5355;&#x9879;"><a href="#&#xFF08;12&#xFF09;Hexo&#x535A;&#x5BA2;NexT&#x4E3B;&#x9898;&#x4E0B;&#x6DFB;&#x52A0;&#x5206;&#x7C7B;&#x3001;&#x6807;&#x7B7E;&#x3001;&#x5173;&#x4E8E;&#x83DC;&#x5355;&#x9879;" class="headerlink" title="&#xFF08;12&#xFF09;Hexo&#x535A;&#x5BA2;NexT&#x4E3B;&#x9898;&#x4E0B;&#x6DFB;&#x52A0;&#x5206;&#x7C7B;&#x3001;&#x6807;&#x7B7E;&#x3001;&#x5173;&#x4E8E;&#x83DC;&#x5355;&#x9879;"></a>&#xFF08;12&#xFF09;Hexo&#x535A;&#x5BA2;NexT&#x4E3B;&#x9898;&#x4E0B;&#x6DFB;&#x52A0;&#x5206;&#x7C7B;&#x3001;&#x6807;&#x7B7E;&#x3001;&#x5173;&#x4E8E;&#x83DC;&#x5355;&#x9879;</h3><p>Hexo NexT&#x4E3B;&#x9898;&#x4E0B;&#x9ED8;&#x8BA4;&#x6709;&#x9996;&#x9875;&#x548C;&#x5F52;&#x6863;&#x4E24;&#x4E2A;&#x83DC;&#x5355;&#xFF0C;&#x6211;&#x4EEC;&#x8FD8;&#x53EF;&#x4EE5;&#x5F00;&#x542F;&#x5176;&#x4ED6;&#x83DC;&#x5355;&#x9879;&#xFF0C;&#x6BD4;&#x5982;&#x5206;&#x7C7B;&#x3001;&#x6807;&#x7B7E;&#x3001;&#x5173;&#x4E8E;</p>
+<p>&#x9996;&#x5148;&#x6253;&#x5F00;&#x4E3B;&#x9898;&#x4E0B;&#x7684;&#x914D;&#x7F6E;&#x6587;&#x4EF6;_config.yml&#xFF0C;&#x7136;&#x540E;&#x641C;&#x7D22;menu&#x627E;&#x5230;&#x5982;&#x4E0B;&#x914D;&#x7F6E;&#x9879;&#xFF0C;&#x5C06;about&#x3001;tags&#x3001;categories&#x524D;&#x7684;#&#x53F7;&#x53BB;&#x6389;&#xFF0C;&#x5C31;&#x5F00;&#x542F;&#x4E86;&#x5173;&#x4E8E;&#x3001;&#x6807;&#x7B7E;&#x548C;&#x5206;&#x7C7B;&#x6807;&#x7B7E;&#xFF0C;&#x5F53;&#x7136;&#x8FD8;&#x6709;&#x5176;&#x4ED6;&#x83DC;&#x5355;&#x9879;&#x4E5F;&#x53EF;&#x4EE5;&#x5F00;&#x542F;</p>
+<p>&#x91CD;&#x65B0;&#x751F;&#x6210;&#x90E8;&#x7F72;&#x540E;&#xFF0C;&#x53EF;&#x4EE5;&#x770B;&#x5230;&#x65B0;&#x589E;&#x7684;&#x83DC;&#x5355;&#x9879;&#xFF0C;&#x4F46;&#x662F;&#x5355;&#x51FB;&#x540E;&#x4F1A;&#x62A5;&#x5982;&#x4E0B;&#x9519;&#x8BEF;</p>
+<pre><code>Cannot GET /about/
+Cannot GET /tags/
+Cannot GET /categories/</code></pre><p>&#x8FD9;&#x662F;&#x56E0;&#x4E3A;&#x4F60;&#x8FD8;&#x9700;&#x8FD0;&#x884C;&#x5982;&#x4E0B;&#x547D;&#x4EE4;&#x65B0;&#x5EFA;&#x76F8;&#x5173;&#x9875;&#x9762;</p>
+<pre><code>hexo new page &quot;about&quot;
+hexo new page &quot;tags&quot;
+hexo new page &quot;categories&quot;</code></pre><p>&#x8FD0;&#x884C;&#x7ED3;&#x679C;&#x5982;&#x4E0B;&#xFF0C;&#x4F1A;&#x518D;source&#x6587;&#x4EF6;&#x4E0B;&#x521B;&#x5EFA;about&#x3001;tags&#x3001;categories&#x6587;&#x4EF6;&#x5939;&#xFF0C;&#x6BCF;&#x4E2A;&#x6587;&#x4EF6;&#x5939;&#x4E0B;&#x8FD8;&#x4F1A;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;index.md&#x6587;&#x4EF6;&#x8868;&#x793A;&#x5173;&#x4E8E;&#x3001;&#x6807;&#x7B7E;&#x9875;&#x5206;&#x7C7B;&#x9875;&#x9762;&#xFF0C;&#x7F16;&#x8F91;&#x8FD9;&#x4E09;&#x4E2A;MarkDown&#x6587;&#x4EF6;&#x53EF;&#x4EE5;&#x81EA;&#x5B9A;&#x4E49;&#x8FD9;&#x4E09;&#x4E2A;&#x9875;&#x9762;&#x7684;&#x5185;&#x5BB9;</p>
+<pre><code>D:\hexo\blog&gt;hexo new page &quot;about&quot;
+INFO  Created: D:\hexo\blog\source\about\index.md
+
+D:\hexo\blog&gt;hexo new page &quot;tags&quot;
+INFO  Created: D:\hexo\blog\source\tags\index.md
+
+D:\hexo\blog&gt;hexo new page &quot;categories&quot;
+INFO  Created: D:\hexo\blog\source\categories\index.md</code></pre><p>&#x8FD8;&#x5DEE;&#x6700;&#x540E;&#x4E00;&#x6B65;&#xFF0C;&#x6253;&#x5F00;&#x5404;&#x9875;&#x9762;&#x5BF9;&#x5E94;&#x7684;index.md&#x6587;&#x4EF6;&#xFF0C;&#x7F16;&#x8F91;&#x5982;&#x4E0B;&#x5185;&#x5BB9;&#xFF0C;title&#x548C;date&#x662F;&#x9ED8;&#x8BA4;&#x751F;&#x6210;&#x7684;&#xFF0C;&#x589E;&#x52A0;type&#x5373;&#x53EF;</p>
+<pre><code>---
+title: about
+date: 2019-06-25 19:16:17
+type: &quot;about&quot;
+---
+
+---
+title: about
+date: 2019-06-25 19:16:17
+type: &quot;tags&quot;
+---
+
+---
+title: about
+date: 2019-06-25 19:16:17
+type: &quot;categories&quot;
+---</code></pre><p>&#x91CD;&#x65B0;&#x751F;&#x6210;&#x548C;&#x90E8;&#x7F72;&#x5373;&#x53EF;&#x770B;&#x5230;&#x6548;&#x679C;</p>
+<hr>
+<p>&#x672C;&#x5C0F;&#x8282;&#x4F5C;&#x8005;&#xFF1A;&#x91CE;&#x733F;&#x65B0;&#x4E00;<br>&#x539F;&#x6587;&#xFF1A;<a href="https://blog.csdn.net/mqdxiaoxiao/article/details/93644533" target="_blank" rel="noopener">https://blog.csdn.net/mqdxiaoxiao/article/details/93644533</a> </p>
+<h3 id="&#x8865;&#xFF1A;"><a href="#&#x8865;&#xFF1A;" class="headerlink" title="&#x8865;&#xFF1A;"></a>&#x8865;&#xFF1A;</h3><p>&#x5176;&#x4ED6;&#x66F4;&#x52A0;&#x8BE6;&#x7EC6;&#x8BBE;&#x7F6E;&#x53EF;&#x89C1;&#x7F51;&#x7AD9;&#xFF1A;<a href="https://www.jianshu.com/p/efbeddc5eb19?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=seo_notes&amp;utm_source=recommendation" target="_blank" rel="noopener">https://www.jianshu.com/p/efbeddc5eb19?utm_campaign=maleskine&amp;utm_content=note&amp;utm_medium=seo_notes&amp;utm_source=recommendation</a> &#x6216;&#x8005;&#x4E5F;&#x53EF;&#x4EE5;&#x81EA;&#x5DF1;&#x67E5;&#x627E;&#x76F8;&#x5173;&#x8D44;&#x6599;&#x6216;&#x8005;&#x5B98;&#x65B9;&#x6587;&#x6863;&#x3002;</p>
+<p>&#x672C;&#x4EBA;&#x65E0;&#x9700;&#x6C42;&#x5C31;&#x4E0D;&#x9700;&#x8981;&#x4F7F;&#x7528;&#x90A3;&#x4E48;&#x591A;&#x529F;&#x80FD;&#x3002;</p>
+<h2 id="3&#x3001;&#x5199;&#x6587;&#x7AE0;&#x53CA;&#x5176;&#x4E0A;&#x4F20;&#x65B9;&#x6CD5;"><a href="#3&#x3001;&#x5199;&#x6587;&#x7AE0;&#x53CA;&#x5176;&#x4E0A;&#x4F20;&#x65B9;&#x6CD5;" class="headerlink" title="3&#x3001;&#x5199;&#x6587;&#x7AE0;&#x53CA;&#x5176;&#x4E0A;&#x4F20;&#x65B9;&#x6CD5;"></a>3&#x3001;&#x5199;&#x6587;&#x7AE0;&#x53CA;&#x5176;&#x4E0A;&#x4F20;&#x65B9;&#x6CD5;</h2><p>&#x4F7F;&#x7528;&#x5982;&#x4E0B;&#x547D;&#x4EE4;&#x6765;&#x521B;&#x5EFA;&#x6587;&#x7AE0;&#xFF1A;</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo hexo n &quot;&#x6587;&#x7AE0;&#x540D;&#x79F0;&quot;</span><br></pre></td></tr></table></figure>
+
+<p>Hexo&#x7684;&#x9879;&#x76EE;&#x7ED3;&#x6784;&#x662F;&#x5728;&#x7F51;&#x7AD9;&#x6839;&#x76EE;&#x5F55;&#x7684;source/_posts&#x76EE;&#x5F55;&#x4E0B;&#x5B58;&#x653E;&#x4F60;&#x7684;&#x535A;&#x5BA2;&#x6587;&#x6863;&#xFF0C;&#x4EE5;.md&#x6587;&#x6863;&#x683C;&#x5F0F;&#x5B58;&#x50A8;&#xFF0C;&#x9ED8;&#x8BA4;&#x5DF2;&#x5B58;&#x5728;&#x4E00;&#x4E2A;hello-world.md&#x6587;&#x7AE0;</p>
+<p>&#x5F53;&#x4F60;&#x6267;&#x884C;&#x5B8C;&#x547D;&#x4EE4;&#x4E4B;&#x540E;&#x4F1A;&#x5728;&#x8BE5;&#x76EE;&#x5F55;&#x4E0B;&#x65B0;&#x5EFA;&#x4E00;&#x4E2A;&#x4F60;&#x7684;md&#x6587;&#x4EF6;&#xFF0C;&#x8FD9;&#x5C31;&#x662F;&#x4F60;&#x7684;&#x535A;&#x5BA2;&#x7684;&#x5185;&#x5BB9;&#x3002;</p>
+<p>&#x4E5F;&#x53EF;&#x4EE5;&#x6307;&#x5B9A;&#x4E00;&#x4E2A;layout&#x5C5E;&#x6027;&#xFF0C;&#x6307;&#x5B9A;&#x6587;&#x7AE0;&#x4F5C;&#x4E3A;&#x5176;&#x4ED6;&#x5F62;&#x5F0F;&#x5B58;&#x653E;&#x5728;&#x522B;&#x7684;&#x76EE;&#x5F55;&#xFF0C;&#x4F8B;&#x5982;page&#x65B0;&#x9875;&#x9762;&#x3001;draft&#x8349;&#x7A3F;&#x7B49;&#x3002;&#x8BE6;&#x7EC6;&#x53C2;&#x8003; <a href="https://hexo.io/zh-cn/docs/writing" target="_blank" rel="noopener">&#x5199;&#x4F5C; | Hexo</a></p>
+<p>&#x65B0;&#x5EFA;&#x7684;&#x6587;&#x7AE0;&#x9664;&#x4E86;&#x6807;&#x51C6;Markdown&#x8BED;&#x6CD5;&#x5916;&#xFF0C;&#x4E5F;&#x652F;&#x6301;&#x4E00;&#x4E9B;&#x589E;&#x5F3A;&#x529F;&#x80FD;&#x7684;&#x6807;&#x7B7E;&#x4EE3;&#x7801;&#x6BB5;&#xFF0C;&#x7528;&#x4E8E;&#x63D2;&#x5165;&#x89C6;&#x9891;&#x3001;&#x5F15;&#x7528;&#x3001;&#x9650;&#x5B9A;&#x5C3A;&#x5BF8;&#x56FE;&#x7247;&#x7B49;&#x3002;<br> <a href="https://hexo.io/zh-cn/docs/tag-plugins" target="_blank" rel="noopener">&#x6807;&#x7B7E;&#x63D2;&#x4EF6;&#xFF08;Tag Plugins&#xFF09; | Hexo</a></p>
+<p>&#x4E0B;&#x9762;&#x4ECB;&#x7ECD;&#x4E00;&#x4E2A;&#x7B80;&#x4FBF;&#x5199;&#x5E76;&#x7BA1;&#x7406;&#x6587;&#x7AE0;&#x7684;&#x65B9;&#x6CD5;&#x2014;&#x2014;&#x2014;&#x4F7F;&#x7528; Hexo Admin &#x63D2;&#x4EF6;</p>
+<p><a href="https://github.com/jaredly/hexo-admin" target="_blank" rel="noopener">Hexo Admin</a> &#x662F;&#x4E00;&#x4E2A;&#x672C;&#x5730;&#x5728;&#x7EBF;&#x5F0F;&#x6587;&#x7AE0;&#x7BA1;&#x7406;&#x5668;&#xFF0C;&#x53EF;&#x4EE5;&#x7528;&#x76F4;&#x89C2;&#x53EF;&#x89C6;&#x5316;&#x7684;&#x65B9;&#x5F0F;&#x65B0;&#x5EFA;&#x3001;&#x7F16;&#x8F91;&#x535A;&#x5BA2;&#x6587;&#x7AE0;&#x3001;page&#x9875;&#x9762;&#xFF0C;&#x6DFB;&#x52A0;&#x6807;&#x7B7E;&#x3001;&#x5206;&#x7C7B;&#x7B49;&#xFF0C;&#x5E76;&#x4E14;&#x652F;&#x6301;&#x526A;&#x8D34;&#x677F;&#x7C98;&#x8D34;&#x56FE;&#x7247;&#xFF08;&#x81EA;&#x52A8;&#x5728;source_images_&#x76EE;&#x5F55;&#x4E2D;&#x521B;&#x5EFA;&#x6587;&#x4EF6;&#xFF09;</p>
+<p><img src="/2019/07/20/hexo&#x5B89;&#x88C5;&#x4E00;&#x7AD9;&#x5F0F;&#x5E2E;&#x6276;/hexo%E5%AE%89%E8%A3%85%E4%B8%80%E7%AB%99%E5%BC%8F%E5%B8%AE%E6%89%B6%5Chexo%E5%AE%89%E8%A3%85%E4%B8%80%E7%AB%99%E5%BC%8F%E5%B8%AE%E6%89%B6_img3.png" alt="hexo&#x5B89;&#x88C5;&#x4E00;&#x7AD9;&#x5F0F;&#x5E2E;&#x6276;_img3"></p>
+<p>&#x5B89;&#x88C5;&#x65B9;&#x6CD5;&#x5982;&#x4E0B;&#xFF1A;</p>
+<ol>
+<li>&#x5728;Hexo&#x7F51;&#x7AD9;&#x76EE;&#x5F55;&#x4E0B;&#xFF0C;&#x5B89;&#x88C5; Hexo Admin &#x63D2;&#x4EF6;</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install --save hexo-admin</span><br></pre></td></tr></table></figure>
+
+<ol>
+<li>&#x542F;&#x52A8;&#x672C;&#x5730;&#x670D;&#x52A1;&#x5668;&#x5E76;&#x6253;&#x5F00;&#x7BA1;&#x7406;&#x754C;&#x9762;&#xFF0C;&#x5373;&#x53EF;&#x4F7F;&#x7528;</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo server -d</span><br><span class="line">open http://localhost:4000/admin/</span><br></pre></td></tr></table></figure>
+
+<p>&#x4E0D;&#x8DB3;&#x4E4B;&#x5904;&#xFF1A;</p>
+<p>Hexo Admin &#x6682;&#x65F6;&#x5E76;&#x4E0D;&#x652F;&#x6301;&#x6309; _config.yml &#x4E2D;&#x8BBE;&#x5B9A;&#x7684; new_post_name &#x5C5E;&#x6027;&#x547D;&#x540D;&#x65B0;&#x5EFA;&#x7684;&#x6587;&#x7AE0;&#xFF0C;&#x4F3C;&#x4E4E;&#x4E5F;&#x4E0D;&#x652F;&#x6301; post_asset_folder &#x4F5C;&#x4E3A;&#x56FE;&#x50CF;&#x6587;&#x4EF6;&#x5939;&#xFF08;&#x8BE5;&#x529F;&#x80FD;&#x5728;2&#x5468;&#x524D;&#x88AB;&#x63D0;&#x51FA;issue&#xFF0C;&#x4F46;&#x7BA1;&#x7406;&#x5458;&#x8868;&#x793A;&#x65E0;&#x610F;&#x5F00;&#x53D1; &#x1F602;&#xFF09;</p>
+<h2 id="4&#x3001;&#x56FE;&#x7247;&#x4E0A;&#x4F20;"><a href="#4&#x3001;&#x56FE;&#x7247;&#x4E0A;&#x4F20;" class="headerlink" title="4&#x3001;&#x56FE;&#x7247;&#x4E0A;&#x4F20;"></a>4&#x3001;&#x56FE;&#x7247;&#x4E0A;&#x4F20;</h2><p>1 &#x628A;&#x4E3B;&#x9875;&#x914D;&#x7F6E;&#x6587;&#x4EF6;<code>_config.yml</code> &#x91CC;&#x7684;<code>post_asset_folder:</code>&#x8FD9;&#x4E2A;&#x9009;&#x9879;&#x8BBE;&#x7F6E;&#x4E3A;<code>true</code></p>
+<p>2 &#x5728;&#x4F60;&#x7684;hexo&#x76EE;&#x5F55;&#x4E0B;&#x6267;&#x884C;&#x8FD9;&#x6837;&#x4E00;&#x53E5;&#x8BDD;<code>npm install hexo-asset-image --save</code>&#xFF0C;&#x8FD9;&#x662F;&#x4E0B;&#x8F7D;&#x5B89;&#x88C5;&#x4E00;&#x4E2A;&#x53EF;&#x4EE5;&#x4E0A;&#x4F20;&#x672C;&#x5730;&#x56FE;&#x7247;&#x7684;&#x63D2;&#x4EF6;&#xFF0C;&#x6765;&#x81EA;dalao&#xFF1A;<a href="https://github.com/CodeFalling/hexo-asset-image" target="_blank" rel="noopener">dalao&#x7684;git</a></p>
+<p>3 &#x7B49;&#x5F85;&#x4E00;&#x5C0F;&#x6BB5;&#x65F6;&#x95F4;&#x540E;&#xFF0C;&#x518D;&#x8FD0;&#x884C;<code>hexo n &quot;xxxx&quot;</code>&#x6765;&#x751F;&#x6210;md&#x535A;&#x6587;&#x65F6;&#xFF0C;<code>/source/_posts</code>&#x6587;&#x4EF6;&#x5939;&#x5185;&#x9664;&#x4E86;<code>xxxx.md</code>&#x6587;&#x4EF6;&#x8FD8;&#x6709;&#x4E00;&#x4E2A;&#x540C;&#x540D;&#x7684;&#x6587;&#x4EF6;&#x5939;</p>
+<p>4 &#x6700;&#x540E;&#x5728;<code>xxxx.md</code>&#x4E2D;&#x60F3;&#x5F15;&#x5165;&#x56FE;&#x7247;&#x65F6;&#xFF0C;&#x5148;&#x628A;&#x56FE;&#x7247;&#x590D;&#x5236;&#x5230;xxxx&#x8FD9;&#x4E2A;&#x6587;&#x4EF6;&#x5939;&#x4E2D;&#xFF0C;&#x7136;&#x540E;&#x53EA;&#x9700;&#x8981;&#x5728;xxxx.md&#x4E2D;&#x6309;&#x7167;markdown&#x7684;&#x683C;&#x5F0F;&#x5F15;&#x5165;&#x56FE;&#x7247;&#xFF1A;</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![&#x4F60;&#x60F3;&#x8F93;&#x5165;&#x7684;&#x66FF;&#x4EE3;&#x6587;&#x5B57;](xxxx/&#x56FE;&#x7247;&#x540D;.jpg)</span><br></pre></td></tr></table></figure>
+
+<p>&#x6CE8;&#x610F;&#xFF1A; xxxx&#x662F;&#x8FD9;&#x4E2A;md&#x6587;&#x4EF6;&#x7684;&#x540D;&#x5B57;&#xFF0C;&#x4E5F;&#x662F;&#x540C;&#x540D;&#x6587;&#x4EF6;&#x5939;&#x7684;&#x540D;&#x5B57;&#x3002;&#x53EA;&#x9700;&#x8981;&#x6709;&#x6587;&#x4EF6;&#x5939;&#x540D;&#x5B57;&#x5373;&#x53EF;&#xFF0C;&#x4E0D;&#x9700;&#x8981;&#x6709;&#x4EC0;&#x4E48;&#x7EDD;&#x5BF9;&#x8DEF;&#x5F84;&#x3002;&#x4F60;&#x60F3;&#x5F15;&#x5165;&#x7684;&#x56FE;&#x7247;&#x5C31;&#x53EA;&#x9700;&#x8981;&#x653E;&#x5165;xxxx&#x8FD9;&#x4E2A;&#x6587;&#x4EF6;&#x5939;&#x5185;&#x5C31;&#x597D;&#x4E86;&#xFF0C;&#x5F88;&#x50CF;&#x5F15;&#x7528;&#x76F8;&#x5BF9;&#x8DEF;&#x5F84;&#x3002;</p>
+<p>5 &#x6700;&#x540E;&#x68C0;&#x67E5;&#x4E00;&#x4E0B;&#xFF0C;<code>hexo g</code>&#x751F;&#x6210;&#x9875;&#x9762;&#x540E;&#xFF0C;&#x8FDB;&#x5165;<code>public\2017\02\26\index.html</code>&#x6587;&#x4EF6;&#x4E2D;&#x67E5;&#x770B;&#x76F8;&#x5173;&#x5B57;&#x6BB5;&#xFF0C;&#x53EF;&#x4EE5;&#x53D1;&#x73B0;&#xFF0C;html&#x6807;&#x7B7E;&#x5185;&#x7684;&#x8BED;&#x53E5;&#x662F;<code>&lt;img src=&quot;2017/02/26/xxxx/&#x56FE;&#x7247;&#x540D;.jpg&quot;&gt;</code>&#xFF0C;&#x800C;&#x4E0D;&#x662F;<code>&lt;img src=&quot;xxxx/&#x56FE;&#x7247;&#x540D;.jpg&gt;</code>&#x3002;&#x8FD9;&#x5F88;&#x91CD;&#x8981;&#xFF0C;&#x5173;&#x4E4E;&#x4F60;&#x7684;&#x7F51;&#x9875;&#x662F;&#x5426;&#x53EF;&#x4EE5;&#x771F;&#x6B63;&#x52A0;&#x8F7D;&#x4F60;&#x60F3;&#x63D2;&#x5165;&#x7684;&#x56FE;&#x7247;&#x3002;</p>
+<p>&#x4F46;&#x662F;&#x7531;&#x4E8E;&#x672C;&#x4EBA;&#x5C1D;&#x8BD5;&#x4E86;&#x8FD9;&#x6837;&#x76F4;&#x63A5;&#x5B89;&#x88C5;&#x7684;hexo-asset-image&#x7248;&#x672C;&#x4F1A;&#x62A5;&#x9519;&#xFF0C;&#x6240;&#x4EE5;&#x89E3;&#x51B3;&#x65B9;&#x5F0F;&#x5E94;&#x8BE5;&#x5982;&#x4E0B;&#xFF1A;</p>
+<p>1.0.0&#x7248;&#x672C;&#x6709;&#x95EE;&#x9898;,&#x90A3;&#x5C31;&#x5207;&#x5230;0.0.1&#x7248;&#x672C;&#x8BD5;&#x8BD5;</p>
+<p>&#x6253;&#x5F00;&#x535A;&#x5BA2;&#x6839;&#x76EE;&#x5F55;&#x4E0B;&#x7684;package.json&#x6587;&#x4EF6;<br><img src="/2019/07/20/hexo&#x5B89;&#x88C5;&#x4E00;&#x7AD9;&#x5F0F;&#x5E2E;&#x6276;/hexo%E5%AE%89%E8%A3%85%E4%B8%80%E7%AB%99%E5%BC%8F%E5%B8%AE%E6%89%B6_img2.png" alt="hexo&#x5B89;&#x88C5;&#x4E00;&#x7AD9;&#x5F0F;&#x5E2E;&#x6276;_img2"><br>&#x628A;hexo-asset-image&#x7684;&#x7248;&#x672C;&#x53F7;&#x6539;&#x6210;0.0.1,&#x7136;&#x540E;windows&#x6253;&#x5F00;cmd,cd&#x5230;&#x535A;&#x5BA2;&#x6839;&#x76EE;&#x5F55;&#x4E0B;&#x6267;&#x884C;npm install&#x6216;&#x8005;yarn install(&#x4F60;&#x88C5;&#x8FC7;yarn&#x7684;&#x8BDD;),mac&#x4E5F;&#x662F;&#x540C;&#x6837;&#x7684;&#x64CD;&#x4F5C;.</p>
+<p>&#x88C5;&#x5B8C;&#x4E4B;&#x540E;,&#x770B;&#x4E0B;&#x56FE;&#x7247;&#x4E0A;&#x4F20;&#x7684;&#x6548;&#x679C;,&#x6267;&#x884C;&#x4E0B;&#x9762;&#x8BED;&#x53E5;</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>
+
+<p>&#x5237;&#x65B0;localhost:4000&#x6765;&#x770B;&#x770B;&#x56FE;&#x7247;&#x5728;&#x672C;&#x5730;&#x662F;&#x5426;&#x5DF2;&#x7ECF;&#x4E0A;&#x4F20;&#x4E86;</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
+
+<p>&#x6253;&#x5F00;&#x4F60;&#x7684;github&#x535A;&#x5BA2;&#x5730;&#x5740;,&#x770B;&#x770B;&#x8FDC;&#x7A0B;&#x662F;&#x5426;&#x5DF2;&#x7ECF;&#x4E0A;&#x4F20;&#x4E86;&#x672C;&#x5730;&#x56FE;&#x7247;</p>
+<ul>
+<li>&#x4F18;&#x70B9;:&#x56FE;&#x7247;&#x7BA1;&#x7406;&#x6E05;&#x695A;&#x8212;&#x670D;</li>
+<li>&#x7F3A;&#x70B9;:git&#x7A7A;&#x95F4;&#x968F;&#x7740;&#x56FE;&#x7247;&#x8D8A;&#x6765;&#x8D8A;&#x6EE1;</li>
+</ul>
+<p>&#x540C;&#x6B65;&#x6280;&#x5DE7;&#xFF1A;</p>
+<p>&#x5229;&#x7528;</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo hexo n &quot;&#x6587;&#x4EF6;&#x540D;&quot;</span><br></pre></td></tr></table></figure>
+
+<p>&#x521B;&#x5EFA;&#x5B8C;&#x6210;&#x4E4B;&#x540E;&#x9700;&#x8981;&#x5C06;<code>source/_posts</code>&#x4E0B;&#x7684;&#x56FE;&#x7247;&#x6587;&#x4EF6;&#x5939;&#x6743;&#x9650;&#x4FEE;&#x6539;&#x4E4B;&#x540E;&#x624D;&#x80FD;&#x4F7F;&#x7528;winscp&#x540C;&#x6B65;</p>
+<p>&#xFF08;&#x7531;&#x4E8E;&#x672C;&#x4EBA;&#x5728;&#x4F7F;&#x7528;windows&#x7CFB;&#x7EDF;&#xFF0C;&#x800C;&#x670D;&#x52A1;&#x5668;&#x4E3A;linux&#x7CFB;&#x7EDF;&#xFF0C;&#x4F20;&#x8F93;&#x56FE;&#x7247;&#x6587;&#x4EF6;&#x65F6;&#x7531;&#x4E8E;&#x4E0D;&#x662F;root&#x7528;&#x6237;&#xFF0C;&#x9700;&#x8981;&#x6539;&#x53D8;&#x65B0;&#x5EFA;&#x7684;&#x56FE;&#x7247;&#x8D44;&#x6E90;&#x76EE;&#x5F55;&#x6709;&#x4F20;&#x8F93;&#x6743;&#x9650;&#xFF09;</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo chown pi:pi &#x6587;&#x4EF6;&#x5939;&#x540D;&#x79F0;</span><br></pre></td></tr></table></figure>
+
+
+      
+    </div>
+
+    
+
+    
+      
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+        
+          
+        
+        <div class="post-tags">
+          
+            <a href="/tags/hexo/" rel="tag"># hexo</a>
+          
+            <a href="/tags/安装/" rel="tag"># 安装</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/07/20/typore的markdown语法详解/" rel="next" title="typore的markdown语法详解">
+                <i class="fa fa-chevron-left"></i> typore的markdown语法详解
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+  </div>
+
+
+          </div>
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="/images/avatar.gif" alt="cyqand">
+            
+              <p class="site-author-name" itemprop="name">cyqand</p>
+              <div class="site-description motion-element" itemprop="description"></div>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">19</span>
+                    <span class="site-state-item-name">posts</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  
+                    
+                      <a href="/categories/">
+                    
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">2</span>
+                    <span class="site-state-item-name">categories</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  
+                    
+                      <a href="/tags/">
+                    
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">6</span>
+                    <span class="site-state-item-name">tags</span>
+                  </a>
+                </div>
+              
+            </nav>
+          
+
+          
+
+          
+
+          
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="https://github.com/cyqand" title="GitHub &rarr; https://github.com/cyqand" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="/cyqand@outlook.com" title="E-Mail &rarr; cyqand@outlook.com"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                </span>
+              
+            </div>
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </div>
+
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1、安装"><span class="nav-number">1.</span> <span class="nav-text">1、安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2、配置（以安装next来示范）"><span class="nav-number">2.</span> <span class="nav-text">2、配置（以安装next来示范）</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#（1）主题配置"><span class="nav-number">2.1.</span> <span class="nav-text">（1）主题配置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#（2）设置主题风格"><span class="nav-number">2.2.</span> <span class="nav-text">（2）设置主题风格</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#（3）设置Menu"><span class="nav-number">2.3.</span> <span class="nav-text">（3）设置Menu</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#（4）添加头像"><span class="nav-number">2.4.</span> <span class="nav-text">（4）添加头像</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#（5）设置侧边栏社交链接"><span class="nav-number">2.5.</span> <span class="nav-text">（5）设置侧边栏社交链接</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#（6）添加顶部加载条"><span class="nav-number">2.6.</span> <span class="nav-text">（6）添加顶部加载条</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#（7）本地搜索"><span class="nav-number">2.7.</span> <span class="nav-text">（7）本地搜索</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#（8）修改网页底部"><span class="nav-number">2.8.</span> <span class="nav-text">（8）修改网页底部</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#（9）统计功能，统计功能-显示文章字数统计-阅读时长-总字数"><span class="nav-number">2.9.</span> <span class="nav-text">（9）统计功能，统计功能,显示文章字数统计,阅读时长,总字数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#（10）20-文章顶部显示更新时间"><span class="nav-number">2.10.</span> <span class="nav-text">（10）20. 文章顶部显示更新时间</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#（11）本地站点推送到GitHub上"><span class="nav-number">2.11.</span> <span class="nav-text">（11）本地站点推送到GitHub上</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#（12）Hexo博客NexT主题下添加分类、标签、关于菜单项"><span class="nav-number">2.12.</span> <span class="nav-text">（12）Hexo博客NexT主题下添加分类、标签、关于菜单项</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#补："><span class="nav-number">2.13.</span> <span class="nav-text">补：</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3、写文章及其上传方法"><span class="nav-number">3.</span> <span class="nav-text">3、写文章及其上传方法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4、图片上传"><span class="nav-number">4.</span> <span class="nav-text">4、图片上传</span></a></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">cyqand</span>
+
+  
+
+  
+</div>
+
+<div>
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<span id="busuanzi_container_site_pv" style="display:none">
+    本站总访问量 <span id="busuanzi_value_site_pv"></span> 次
+    <span class="post-meta-divider">|</span>
+</span>
+<span id="busuanzi_container_site_uv" style="display:none">
+    有<span id="busuanzi_value_site_uv"></span>人看过我的博客
+</span>
+</div>
+
+
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="post-meta-item-icon">
+      <i class="fa fa-user"></i>
+    </span>
+    <span class="site-uv" title="Total Visitors">
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+    </span>
+  
+
+  
+    <span class="post-meta-divider">|</span>
+  
+
+  
+    <span class="post-meta-item-icon">
+      <i class="fa fa-eye"></i>
+    </span>
+    <span class="site-pv" title="Total Views">
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+    </span>
+  
+</div>
+
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+    
+  </div>
+
+  
+
+<script>
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script src="/lib/jquery/index.js?v=3.4.1"></script>
+
+  
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+
+
+
+  <script src="/js/utils.js?v=7.2.0"></script>
+
+  <script src="/js/motion.js?v=7.2.0"></script>
+
+
+
+  
+  
+
+
+  <script src="/js/affix.js?v=7.2.0"></script>
+
+  <script src="/js/schemes/pisces.js?v=7.2.0"></script>
+
+
+
+
+  
+  <script src="/js/scrollspy.js?v=7.2.0"></script>
+<script src="/js/post-details.js?v=7.2.0"></script>
+
+
+
+  <script src="/js/next-boot.js?v=7.2.0"></script>
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+
+  
+  <script>
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url).replace(/\/{2,}/g, '/');
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x"></i></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x"></i></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+</body>
+</html>
